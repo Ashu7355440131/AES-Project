@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "created_at": "2026-11-23T04:28:28.498027+00:00",
+  "kdf": {
+    "algorithm": "Argon2id",
+    "salt_hex": "8f49341deb9631493b8558b380e01851"
+  },
+  "active_key_version": 2,
+  "keyring": {
+    "1": {
+      "wrapped_dek_password_hex": "404b7fb1762873b67aaba53e91654763bcaedbd193ac081f5d447a3613429ddbdab95e65ba90ce00",
+      "wrapped_dek_recovery_hex": "2c89a731b4dbcf20b7861d4e56893a40e3a353eb785b7bcaecf60f4f8fc0cbc317f50115ee34e724",
+      "created_at": "2026-11-23T04:28:28.498137+00:00"
+    },
+    "2": {
+      "wrapped_dek_password_hex": "4f38650ed29b25c7bb891855e45f1e6aef60fc45032564f78d49beed82b5b76849684399ed20d17a",
+      "wrapped_dek_recovery_hex": "2595d3a783f6c377a48dd13ba1840ef2edca9f2b0a2b085e49b8b659c648aa34b0f3858cb97fbae7",
+      "created_at": "2026-11-23T04:31:59.124859+00:00"
+    }
+  },
+  "signing": {
+    "algorithm": "Ed25519",
+    "public_key_hex": "5127bc9e6524a7f4bf5ac3157b6ab21ffb53e8b9648cbe2e0f0df172ca3e6572",
+    "wrapped_private_key_hex": "0ad8c35065309a40690f837074905e2f3a9d0199a049c733c1831f32afc3f0a681b684172633b87b"
+  },
+  "audit": {
+    "wrapped_audit_key_password_hex": "db608451fbb95d8498ff52038a08da79050a454b9c0a54745c3af826b1b9aad7da9e087267e2571d",
+    "wrapped_audit_key_recovery_hex": "4efa289d5111799121618b7a68e8db22f5072489a4e085e8710dcea34745ce2bcbf827f15a606098"
+  },
+  "recovery": {
+    "scheme": "GF256-Shamir-Secret-Sharing",
+    "threshold": 3,
+    "total_shares": 5
+  }
+}

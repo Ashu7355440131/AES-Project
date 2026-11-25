@@ -1,0 +1,32 @@
+{
+  "payload": {
+    "backup_id": "20261123T042953Z-ca162c95",
+    "label": "viva-demo",
+    "created_at": "2026-11-23T04:29:53.735609+00:00",
+    "key_version": 1,
+    "cipher_suite": "AES-256-GCM + HKDF-SHA256 + Ed25519",
+    "file_count": 1,
+    "total_chunks": 1,
+    "total_plaintext_bytes": 88,
+    "merkle_root": "4a4527c1b6346c0dc318b3a139c30ba918f2d764fd9fd615917b0158215ee413",
+    "files": [
+      {
+        "relative_path": "report.txt",
+        "size_bytes": 88,
+        "sha256": "0d055da4d4fe17ca3517a7bfbc11528e5b6cfd1cd883d8e36ac79383fbff1e76",
+        "file_salt_hex": "f4c992178bcbb3ca47136ee083872b43",
+        "chunks": [
+          {
+            "index": 0,
+            "is_last": true,
+            "nonce_hex": "41cdaf3751543acece912245",
+            "blob_sha256": "62785c09b82eb65bc29b52f6dbe1ea95db9984031cd0576c60bc767359a7a9e8",
+            "plaintext_sha256": "0d055da4d4fe17ca3517a7bfbc11528e5b6cfd1cd883d8e36ac79383fbff1e76",
+            "plaintext_size": 88
+          }
+        ]
+      }
+    ]
+  },
+  "signature_hex": "608a78d0eed66dc0246aa7f4e50724510f0883aeff9f8e33e29297a0fd4d7323f5aaa236e097510ce7a403723cad88fbc339f78e532ca8562e94f30034923f07"
+}
